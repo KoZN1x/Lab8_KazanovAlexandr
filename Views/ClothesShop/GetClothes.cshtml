@@ -10,6 +10,8 @@
             <td style="border: 1px solid black;"> <strong>Name</strong> </td>
             <td style="border: 1px solid black;"> <strong>Descriprion</strong> </td>
             <td style="border: 1px solid black;"> <strong>Price</strong> </td>
+            <td style="border: 1px solid black;"> <strong>Size</strong> </td>
+            <td style="border: 1px solid black;"> <strong>ID</strong> </td>
         </tr>
 @foreach (var item in Model.ListOfClothes)
 {
@@ -17,6 +19,8 @@
             <td style="border: 1px solid black;"> @item.Name </td>
             <td style="border: 1px solid black;"> @item.Description </td>
             <td style="border: 1px solid black;"> @item.Price </td>
+            <td style="border: 1px solid black;"> @item.Size </td>
+            <td style="border: 1px solid black;"> @item.Id </td>
         </tr>
 }
     </tbody>
