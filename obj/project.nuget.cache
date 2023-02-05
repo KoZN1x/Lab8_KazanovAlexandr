@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "iJCyjuD1POUhDPsAtE1ApQnjReb3+iXFfy3hE8a+/PmxHWospBdlb8tYEkO26q5f0+4LNAZUKNTxgcq0yVnUUw==",
+  "success": true,
+  "projectFilePath": "E:\\Programms\\Practice_01.02_KazanovAlexandr\\Practice_01.02_KazanovAlexandr.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KoZN\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

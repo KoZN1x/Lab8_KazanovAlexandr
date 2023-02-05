@@ -1,0 +1,23 @@
+﻿@model ClothesCollectionModel
+@{
+    ViewData["Title"] = "Get clothes";
+}
+<p style="text-align: center"><h2>Shop</h2></p>
+
+<table border="1" style="border-collapse: collapse; width: 100%;">
+    <tbody>
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black;"> <strong>Name</strong> </td>
+            <td style="border: 1px solid black;"> <strong>Descriprion</strong> </td>
+            <td style="border: 1px solid black;"> <strong>Price</strong> </td>
+        </tr>
+@foreach (var item in Model.ListOfClothes)
+{
+        <tr style="border: 1px solid black;">
+            <td style="border: 1px solid black;"> @item.Name </td>
+            <td style="border: 1px solid black;"> @item.Description </td>
+            <td style="border: 1px solid black;"> @item.Price </td>
+        </tr>
+}
+    </tbody>
+</table>
