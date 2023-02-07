@@ -8,11 +8,12 @@
         public ushort Price { get; set; }
         public string? Name { get; set; }
         public string? Description { get; set; }
-        public ClothesModel(ushort price, string? name, string? description)
+        public ClothesModel(ushort price, string? name, string? description, byte size)
         {
             Price = price;
             Name = name;
             Description = description;
+            Size = size;
             DateTime centuryBegin = new DateTime(2022, 1, 1);
             Id = DateTime.Now.Ticks - centuryBegin.Ticks;
         }

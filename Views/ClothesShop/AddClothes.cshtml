@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Add clothes";
+}
+<div class="text-center">
+    <form asp-controller="ClothesShop" asp-action="AddClothes" method="post">
+        Price:         <input name="price" type ="number" min="0" /><br />
+        Name:          <input name="name" type="text" /><br />
+        Description:   <input name="description" type="text" /><br />
+        Size:          <input name="size" type="number" min="0" max="255" /><br />
+        <button asp-controller="ClothesShop" asp-action="AddClothes">Add clothes</button>
+    </form>
+</div>

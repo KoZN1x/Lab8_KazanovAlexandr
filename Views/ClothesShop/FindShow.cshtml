@@ -1,0 +1,11 @@
+﻿@model ClothesModel
+@{
+    ViewData["Title"] = "Show clothes";
+}
+<div class="text-center">
+    <form asp-controller="ClothesShop" asp-action="Show" method="post">
+        ID:         <input name="id" type="number" /><br />
+        <button type ="submit">Confirm </button> 
+    </form>
+</div>
+

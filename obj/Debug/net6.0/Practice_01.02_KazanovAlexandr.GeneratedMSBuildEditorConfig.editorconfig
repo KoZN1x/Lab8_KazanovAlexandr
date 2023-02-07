@@ -16,12 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Programms\Practice_01.02_KazanovAlexandr
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Programms/Practice_01.02_KazanovAlexandr/Views/ClothesShop/AddClothes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xvdGhlc1Nob3BcQWRkQ2xvdGhlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programms/Practice_01.02_KazanovAlexandr/Views/ClothesShop/FindDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xvdGhlc1Nob3BcRmluZERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programms/Practice_01.02_KazanovAlexandr/Views/ClothesShop/FindShow.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xvdGhlc1Nob3BcRmluZFNob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Programms/Practice_01.02_KazanovAlexandr/Views/ClothesShop/GetClothes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xvdGhlc1Nob3BcR2V0Q2xvdGhlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Programms/Practice_01.02_KazanovAlexandr/Views/ClothesShop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xvdGhlc1Nob3BcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Programms/Practice_01.02_KazanovAlexandr/Views/ClothesShop/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xvdGhlc1Nob3BcU2hvdy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/Programms/Practice_01.02_KazanovAlexandr/Views/Home/Index.cshtml]

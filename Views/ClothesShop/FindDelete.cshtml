@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Delete clothes";
+}
+<div class="text-center">
+    <form asp-controller="ClothesShop" asp-action="Delete" method="post">
+        ID:         <input name="id" type ="number" /><br />
+        <button type="submit">Delete </button>
+    </form>
+</div>
