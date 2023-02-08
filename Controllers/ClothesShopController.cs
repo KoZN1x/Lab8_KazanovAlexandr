@@ -13,6 +13,13 @@ namespace Practice_01._02_KazanovAlexandr.Controllers
     {
         private readonly string pathToFile = "E:\\Programms\\Practice_01.02_KazanovAlexandr\\wwwroot\\json\\clothes.json";
 
+        [HttpGet]
+        public IActionResult AddClothes()
+        {
+            return View();
+        }
+
+        [HttpPost]
         public IActionResult AddClothes(ushort price, string name, string description, byte size)
         {
             var collection = new ClothesCollectionModel();
